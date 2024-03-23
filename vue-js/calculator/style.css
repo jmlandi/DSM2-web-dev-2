@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-out;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#calcu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: #ededed;
+}
+
+#calcu h1 {
+    padding: 10px;
+}
+
+input {
+    width: 120px;
+    height: 40px;
+}
+
+.result {
+    background-color: #fff;
+    height: 38px;
+    border: 1px solid #787878;
+    width: 362px;
+    display: flex;
+    justify-content: center;
+    line-height: 38px;
+}
